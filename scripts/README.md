@@ -39,7 +39,8 @@ to run everything up to bob's transaction. See the `package.json` file for more.
 ## Logging compute costs
 Since there is not package / tool that tracks the consumed compute units when need to find those in the logs of the solana validator.
 For this run in a new tab after executing `npm run all`
-```solana logs --url localhost
+```
+solana logs --url localhost
 ```
 
 ### Extracting compute units out of the logs
