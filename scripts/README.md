@@ -9,7 +9,7 @@ All available commands can be found in the `package.json` file. Start by going i
 ```
 cargo build-bpf
 ```
-This command will output the location of your executable (ending with `.so`). Copy it and execute the following script from this repo to start up the validator you'll need for the other scripts.
+This command will output the location of your executable (ending with `.so`). Copy it and execute the following script from the script folder  to start up the validator you'll need for the other scripts.
 ```
 npm run setup-validator <EXECUTABLE_LOCATION>
 ```
